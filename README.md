@@ -1,5 +1,4 @@
 # Spring Security demo project
-
 #### 网站安全
 - 非功能性需求
 - 在设计之初就应该考虑
@@ -11,9 +10,9 @@
 1. 新建项目
 选择的功能模块：spring web、
 1. 添加静态资源    
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580893189748.png)
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580893189748.png)
 2. 关闭thymeLeaf缓存    
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580893249262.png)
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580893249262.png)
 3. 路由controller
 ```java
 package com.chenzj36.controller;
@@ -145,21 +144,21 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	</div>
 </div>
 ```
-*登录*       
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580903949527.png)   
-*未登录*        
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580903912313.png)    
+*登录*     
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580903949527.png)
+*未登录*     
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580903912313.png)
 
-- 解决注销失败      
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580903890353.png)
-- 动态菜单实现     
-` <div class="column" sec:authorize="hasRole('vip1')">`    
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580907116096.png)   
-- 开启记住我功能     
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580908688085.png)     
-- 自定义登录页面        
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580908267899.png)      
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1580908289437.png)    
+- 解决注销失败
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580903890353.png)
+- 动态菜单实现
+` <div class="column" sec:authorize="hasRole('vip1')">`
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580907116096.png)
+- 开启记住我功能
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580908688085.png)
+- 自定义登录页面       
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580908267899.png)    
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1580908289437.png)
 此处注意表单提交的用户名密码需为username 和password或者改http接收的参数（看源码）
 
 
